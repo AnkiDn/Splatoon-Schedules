@@ -1,0 +1,28 @@
+<!--pages/splatCoop/splatCoop.wxml-->
+<view class="container">
+  <!-- <view class="splat-coop-time">
+    <text>{{time}}</text>
+  </view> -->
+  <view class="time-picker-content">
+    <picker bindchange="changeTime"  value="{{timeIndex}}" range="{{timeList}}">
+      <view class="time-picker-detail">{{timeList[timeIndex]}}</view>
+    </picker>
+  </view>
+  <view class="splat-coop-name">
+    <text>{{coop_name}}</text>
+  </view>
+  <image class="coop_image" src="{{coop_image}}" mode="aspectFit"></image>
+  <view class="splat-weapon">
+      <text>Weapon: </text>
+  </view>
+  <view class="coop_weapons">
+    <image class="weapon_image" src="{{coop_weapon1}}" mode="aspectFit"></image>
+    <image class="weapon_image" src="{{coop_weapon2}}" mode="aspectFit"></image>
+    <image class="weapon_image" src="{{coop_weapon3}}" mode="aspectFit"></image>
+    <image class="weapon_image" src="{{coop_weapon4}}" mode="aspectFit"></image>
+  </view>
+  <!-- <view class="splat-coop-gear">
+    <text>Gear: </text>
+  </view>
+  <image class="gear_image" src="{{gear_image}}" mode="aspectFill"></image> -->
+</view>
