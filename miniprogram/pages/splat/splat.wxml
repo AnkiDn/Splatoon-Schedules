@@ -1,0 +1,36 @@
+<view class="container">
+<!-- <web-view src="https://splatoon2.ink"/> -->
+<!-- https://splatoon2.ink/assets/splatnet/images/stage/ -->
+
+<!-- 真格 -->
+<view class="splatoon" bindtap="onRank">
+<image class="splat_image" src="icon_rank.png" mode="aspectFill"></image>
+    <view class="splat-text">
+      <text>Rank</text>
+    </view>
+</view>
+
+<!-- 组队真格 -->
+<view class="splatoon" bindtap="onLeague">
+<image class="splat_image" src="icon_league.png" mode="aspectFill"></image>
+    <view class="splat-text">
+      <text>League</text>
+    </view>
+</view>
+
+<!-- 区域 -->
+<view class="splatoon" bindtap="onRegular">
+<image class="splat_image" src="icon_regular.png" mode="aspectFill"></image>
+    <view class="splat-text">
+      <text>Regular</text>
+    </view>
+  </view>
+</view>
+
+<!-- 打工 -->
+<view class="splatoon" bindtap="onCoop">
+<image class="splat_image" src="icon_coop.png" mode="aspectFill"></image>
+    <view class="splat-text">
+      <text>Coop</text>
+    </view>
+</view>
